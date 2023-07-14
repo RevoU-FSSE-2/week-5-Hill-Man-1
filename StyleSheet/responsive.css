@@ -220,10 +220,6 @@
         margin-top: 20px;
     }
 
-    .gallery{
-        display: none;
-    }
-
     .footer_container{
         grid-template-columns: repeat(1,1fr);
         row-gap: 3rem;
