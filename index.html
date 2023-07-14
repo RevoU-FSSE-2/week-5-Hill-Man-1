@@ -1,1 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="description" content="Company Profile of PT. Reka Prima Consultants"/>
+    <meta name="robots" content="noindex"/>
+    <meta name="keywords" content="HTML, CSS, JavaScript"/>
+    <meta name="author" content="Hilman SF"/>
 
+    <!-- FAVICON -->
+    <link rel="icon" href="./Assets/favicon-16x16.png" type="image/x-icon"/>
+    <!-- UNICON -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="./StyleSheet/style.css"/>
+
+    <!-- RESPONSIVE CSS -->
+    <link rel="stylesheet" href="./StyleSheet/responsive.css"/>
+
+    <title>Company Profile</title>
+</head>
+
+<body>
+    <!-- BURGER BUTTON -->
+        <div class="burger_btn" id="burger_btn">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <!-- SIDEBAR  -->
+        <aside class="sidebar" id="sidebar">
+            <nav class="nav">
+                <div class="nav_logo">
+                    <img src="./Assets//rpc.webp" alt="Reka Prima Logo"/>
+                </div>
+                <div class="nav_menu">
+                    <div class="menu">
+                        <ul class="nav_list">
+                            <li class="nav_item">
+                                <a aria-label="home section" href="#home" class="nav_link active-link">HOME</a>
+                            </li>
+                            <li class="nav_item">
+                                <a aria-label="about section" href="#about" class="nav_link">ABOUT</a>
+                            </li>
+                            <li class="nav_item">
+                                <a aria-label="services section" href="#services" class="nav_link">SERVICES</a>
+                            </li>
+                            <li class="nav_item">
+                                <a aria-label="gallery section" href="#gallery" class="nav_link">GALLERY</a>
+                            </li>
+                            <li class="nav_item">
+                                <a aria-label="our client section" href="#client" class="nav_link">OUR CLIENT</a>
+                            </li>
+                            <li class="nav_item">
+                                <a aria-label="contact section" href="#contact" class="nav_link">CONTACT</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="btn_share">
+                    <i class="fas fa-solid fa-share-nodes"></i>
+                </div>
+
+                <div class="nav_close" id="nav_close">
+                    <i class="fa-regular fa-circle-xmark fa-fade"></i>
+                </div>
+            </nav>
+        </aside>
+        <!-- END SIDEBAR -->
+
+        <!-- MAIN START -->
+        <main>
+        <!-- HOME SECTION START -->
+            <!-- SECTION SOCIAL MEDIA -->
+            <section class="home section" id="home">
+                <div class="home_container container grid">
+                    <div class="home_social">
+                        <span class="home_social-follow">Follow Us</span>
+                        <div class="home_social-links">
+                            <a aria-label="link to facebook" href="#" target="_blank" class="home_social-link">
+                                <i class="fa-brands fa-square-facebook"></i>
+                            </a>
+                            <a aria-label="link to twitter" href="#" target="_blank" class="home_social-link">
+                                <i class="fa-brands fa-square-twitter"></i>
+                            </a>
+                            <a aria-label="link to instagram" href="#" target="_blank" class="home_social-link">
+                                <i class="fa-brands fa-square-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- END SECTION SOCIAL MEDIA -->
+
+                    <!-- START HOME INFO -->
+                    <div class="home_data">
+                        <h1 class="home_title">PT. Reka Prima Consultants</h1>
+                        <p class="home_description">High Level Experience in Architecture, Civil Engineering, Environmental Engineering</p>
+                        <a href="#about" class="button"><i class="fa-regular fa-building fa-bounce"></i> More About Us!</a>
+                    </div>
+                    <div class="my_info">
+                        <div class="info_item">
+                            <i class="info_icon fa-brands fa-whatsapp"></i>
+                            <div>
+                                <h3 class="info_title">Whatsapp</h3>
+                                <span class="info_subtitle">+62 813 2181 2182</span>
+                            </div>
+                        </div>
+                        <div class="info_item">
+                            <i class="info_icon fa-regular fa-envelope"></i>
+                            <div>
+                                <h3 class="info_title">E-Mail</h3>
+                                <span class="info_subtitle">xyz@rekaprima.co.id</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <!-- END HOME INFO -->
+            </section>
+        <!-- HOME SECTION END -->
+
+        <!-- ABOUT SECTION START -->
+        <section class="about section "id="about">
+            <h2 class="section_title reveal">ABOUT US</h2>
+            <div class="about_container container grid reveal">
+                    <img src="./Assets/about.webp" alt="about"/>
+                <div class="about_data">
+                    <article>
+                        <h3 class="about_title">Hello There!</h3>
+                        <p class="about_description"><strong>Reka Prima Consultants (REKA)</strong>
+                            is a consulting firm
+                            architectural, civil, and environmental engineering.
+                            REKA was founded in 2003 in
+                            Bandung to fill the need
+                            consulting services in implementation
+                            national development and participate
+                            as well as in the implementation of programs
+                            government and development
+                            private projects.
+                            Until now, REKA has been working on
+                            various projects from the Government and
+                            private sector scattered in various regions
+                            in Indonesia. REKA passion for
+                            provide professional service,
+                            innovative, and efficient, supported by personnel
+                            experts from various backgrounds
+                            knowledge with extensive experience.</p>
+                        <a aria-label="button for contact us" href="#contact" class="button_contact"><i class="fa-solid fa-headset fa-flip"></i>Contact Us!</a>
+                        </article>
+                    </div>
+            </div>
+        </section>
+        <!-- ABOUT SECTIO END -->
+
+        <!-- SERVICE START -->
+        <section class="service section" id="services">
+            <h2 class="section_title">OUR SERVICES</h2>
+            <div class="service_container container grid">
+                <div class="service_info">
+                    <img src="./Assets/Architecture.webp" class="img_1" alt="Tall Building">
+                    <h2>Architecture<br>Design</h2>
+                    <p>As a Planning Consulting Company
+                    REKA Has The Ability To
+                    Accommodating Service User Desires
+                    Adapted to Field Conditions and
+                    Design, Which Is Poured In Form
+                    Drawings of Implementation Work.
+                    </p>
+                    <span id="dots">
+                    <ul>
+                        <li>Road and Bridge Planning</li>
+                        <li>Transportation Infrastructure Planning</li>
+                        <li>Building Planning Construction</li>
+                    </ul>
+                    </span>
+                    <span id="more"></span>
+                    <button class="button" onclick="myFunction()" id="myBtn">Read more</button>
+                </div>
+                <div class="service_info">
+                    <img src="./Assets/civil-engineering.webp" class="img_2" alt="Civil Engineering Excavator">
+                    <h2>Civil<br>Engineering</h2>
+                    <p>REKA competencies supported by
+                        experienced team in the Civil Sector
+                        to help building owners
+                        construction work carried out
+                        in accordance with the design, working drawings,
+                        budgeted costs, and time has elapsed
+                    </p>
+                    <span id="dots1">
+                    <ul>
+                        <li>Construction Work Supervision</li>
+                        <li>Supervision Implementation of Operations and Maintenance</li>
+                        <li>Construction Management</li>
+                    </ul>
+                    </span>
+                    <span id="more1"></span>
+                    <button class="button" onclick="myFunction1()" id="myBtn1">Read more</button>
+                </div>
+                <div class="service_info">
+                    <img src="./Assets/environtmental.webp" class="img_3" alt="Dam">
+                    <h2>Environmental Engineering</h2>
+                    <p>REKA Present as a Consultant
+                        Participating in Development
+                        Infrastructure and Environmental Engineering
+                        Especially in the Clean Water Sector.
+                        Availability of Clean Water
+                        With Due Observance of Environmental Management.
+                    </p>
+                    <span id="dots2">
+                    <ul>
+                        <li>Water Resources Planning</li>
+                        <li>Clean Water System Planning and Design</li>
+                        <li>Water Treatment Plan Planning</li>
+                    </ul>
+                    </span>
+                    <span id="more2"></span>
+                    <button class="button" onclick="myFunction2()" id="myBtn2">Read more</button>
+                </div>
+            </div>
+        </section>
+        <!-- SERVICE END -->
+        
+        <!-- GALLERY START -->
+        <section class="gallery section" id="gallery">
+            <h2 class="section_title">GALLERY</h2>
+            <div class="image_grid reveal">
+                <img class="image_grid_col-2" src="./Assets/Gallery-1.webp" alt="Civil Engineering Activities"/>
+                <img class="image_grid_row-4" src="./Assets/Gallery-2.webp" alt="Civil Engineering Activities"/>
+                <img src="./Assets/Gallery-3.webp" alt="Civil Engineering Activities"/>
+                <img src="./Assets/Gallery-4.webp" alt="Civil Engineering Activities"/>
+                <img src="./Assets/Gallery-5.webp" alt="Civil Engineering Activities"/>
+                <img src="./Assets/Gallery-6.webp" alt="Civil Engineering Activities"/>
+                <img src="./Assets/Gallery-7.webp" alt="Civil Engineering Activities"/>
+                <img class="image_grid_col-8" src="./Assets/Gallery-8.webp" alt="Civil Engineering Activities"/>
+            </div>
+        </section>
+        <!-- GALLERY END -->
+        
+        <!-- CLIENT START -->
+        <section class="client section" id="client">
+            <h2 class="section_title reveal">OUR CLIENT</h2>
+            <div class="client_container container grid">
+                <div class="logo">
+                    <div class="logo_slide">
+                        <img src="./Assets/client-1.webp" alt="Logo of Agro Jabar"/>
+                        <img src="./Assets/client-2.webp" alt="Logo of Bandung City"/>
+                        <img src="./Assets/client-3.webp" alt="Logo of DKI Jakarta Province"/>
+                        <img src="./Assets/client-4.webp" alt="Logo of West Bandung Regency"/>
+                        <img src="./Assets/client-5.webp" alt="Logo of Ministry of Defense"/>
+                        <img src="./Assets/client-6.webp" alt="Logo of Len Industries"/>
+                        <img src="./Assets/client-7.webp" alt="Logo of Naval Headquarters"/>
+                        <img src="./Assets/client-8.webp" alt="Logo of Sumedang Regency"/>
+                        <img src="./Assets/client-9.webp" alt="Logo of South Tangerang"/>
+                        <img src="./Assets/client-10.webp" alt="Logo of Jawa Barat Province"/>
+                        <img src="./Assets/client-11.webp" alt="Logo of Summarecon Bandung"/>
+                    </div>
+                    <div class="logo_slide">
+                        <img src="./Assets/client-1.webp" alt="Logo of Agro Jabar"/>
+                        <img src="./Assets/client-2.webp" alt="Logo of Bandung City"/>
+                        <img src="./Assets/client-3.webp" alt="Logo of DKI Jakarta Province"/>
+                        <img src="./Assets/client-4.webp" alt="Logo of West Bandung Regency"/>
+                        <img src="./Assets/client-5.webp" alt="Logo of Ministry of Defense"/>
+                        <img src="./Assets/client-6.webp" alt="Logo of Len Industries"/>
+                        <img src="./Assets/client-7.webp" alt="Logo of Naval Headquarters"/>
+                        <img src="./Assets/client-8.webp" alt="Logo of Sumedang Regency"/>
+                        <img src="./Assets/client-9.webp" alt="Logo of South Tangerang"/>
+                        <img src="./Assets/client-10.webp" alt="Logo of Jawa Barat Province"/>
+                        <img src="./Assets/client-11.webp" alt="Logo of Summarecon Bandung"/>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- CLIENT END -->
+
+        <!-- CONTACT START -->
+        <section class="contact section" id="contact">
+            <h2 class="section_title reveal">CONTACT US!</h2>
+            <div class="contact_container container grid">
+                <div class="contact_content">
+                    <div class="contact_info reveal">
+                        <div class="contact_card">
+                            <i class="contact_icon fa-brands fa-whatsapp"></i>
+                            <h3 class="contact_title">WhatsApp</h3>
+                            <span class="contact_data">+62 813 2181 2182</span>
+                            <a aria-label="send message to whatsapp" href="https://wa.me/621121511027/?text=Thanks!" target="_blank" class="contact_button wa_web">Send Message<i class="fa-solid fa-arrow-right fa-beat-fade"></i></a>
+                        </div>
+                        <div class="contact_card">
+                            <i class="contact_icon fa-regular fa-envelope"></i>
+                            <h3 class="contact_title">E-Mail</h3>
+                            <span class="contact_data">xyz@rekaprima.co.id</span>
+                            <a aria-label="send message to e-mail" href="mailto:email.cuman.buat.main@gmail.com" class="contact_button">Send Us Email<i class="fa-solid fa-arrow-right fa-beat-fade"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact_form reveal">
+                    <form class="form_input">
+                        <div class="inputBox">
+                            <input aria-label="name" name="name" type="text" required/>
+                            <label aria-label="name" class="label_contact">NAME</label>
+                        </div>
+                        <div class="inputBox">
+                            <input aria-label="phone number" name="phone number"  type="tel" required/>
+                            <label aria-label="phone number" name="phone number" class="label_contact">PHONE &nbsp NUMBER</label>
+                        </div>
+                        <div class="inputBox">
+                            <input aria-label="email" name="email" type="email" required/>
+                            <label aria-label="email" for="email" id="email" name="email" class="label_contact">E-MAIL</label>
+                        </div>
+                        <div class="inputBox">
+                            <textarea aria-label="message" name="input message" id="#" required></textarea>
+                            <label aria-label="message" name="input message" class="label_contact">MESSAGE</label>
+                        </div>
+                        <button type="submit" class="button_form">
+                            Send Us a Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- CONTACT END -->
+        
+        <!-- FOOTER START -->
+
+        <footer class="footer">
+            <div class="footer_bg">
+                <div class="footer_container container grid">
+                    <h2 class="footer_title" >&#169; 2023</h2>
+                    <ul class="footer_link">
+                        <li>
+                            <a aria-label="go to home" href="#home" class="footer_link">HOME</a>
+                        </li>
+                        <li>
+                            <a aria-label="go to about" href="#about" class="footer_link">ABOUT</a>
+                        </li>
+                        <li>
+                            <a aria-label="go to services" href="#services" class="footer_link">SERVICES</a>
+                        </li>
+                        <li>
+                            <a aria-label="go to gallery" href="#gallery" class="footer_link">GALLERY</a>
+                        </li>
+                        <li>
+                            <a aria-label="go to client" href="#client" class="footer_link">CLIENT</a>
+                        </li>
+                        <li>
+                            <a aria-label="go to contact" href="#contact" class="footer_link">CONTACT</a>
+                        </li>
+                    </ul>
+                    <div class="footer_social">
+                        <a aria-label="go to facebook" href="#" target="_blank" class="fb-link">
+                            <i class="fa-brands fa-square-facebook"></i>
+                        </a>
+                        <a aria-label="go to twitter" href="#" target="_blank" class="twitter-link">
+                            <i class="fa-brands fa-square-twitter"></i>
+                        </a>
+                        <a aria-label="go to instagram" href="#" target="_blank" class="ig-link">
+                            <i class="fa-brands fa-square-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div> 
+        </footer>
+        
+        <!-- FOOTER END -->
+
+        </main>
+        <!-- END MAIN -->
+        <script src="./javaScript/javaScript.js"></script>
+</body>
+</html>
