@@ -91,7 +91,7 @@ This is Gallery Section. i use grid (again) as you can see i have 4 columns and 
 ![Gallery Section Preview Tablet](./Screenshot/Tablet-View-Gallery.png)
 
 **Mobile View**
-![Gallery Section Preview Mobile](./Screenshot/gallery)
+![Gallery Section Preview Mobile](./Screenshot/Mobile-View-Gallery.png)
 
 ## Client Section
 
@@ -101,13 +101,13 @@ The section i like. when you in this section you will see the automatic slide ab
 ![Code HTML]
 
 **Dekstop/Laptop View**
-![Client Section Preview Desktop]
+![Client Section Preview Desktop](./Screenshot/Client-Section.png)
 
 **Tablet View**
-![Client Section Preview Tablet]
+![Client Section Preview Tablet](./Screenshot/Tablet-View-Client.png)
 
 **Mobile View**
-![Client Section Preview Mobile]
+![Client Section Preview Mobile](./Screenshot/Mobile-View-Client.png)
 
 ## Contact
 
@@ -117,13 +117,13 @@ Last Active Navbar is Contact Section. in here i put form to let us know about w
 ![Code HTML]
 
 **Dekstop/Laptop View**
-![Contact Section Preview Desktop]
+![Contact Section Preview Desktop](./Screenshot/Contact-Section.png)
 
 **Tablet View**
-![Contact Section Preview Tablet]
+![Contact Section Preview Tablet](./Screenshot/Tablet-View-Contact.png)
 
 **Mobile View**
-![Contact Section Preview Mobile]
+![Contact Section Preview Mobile](./Screenshot/Mobile-View-Contact.png)
 
 ## Footer
 
@@ -133,13 +133,13 @@ And this is the end of the website it's a footer section nothing special here bu
 ![Code HTML]
 
 **Dekstop/Laptop View**
-![Footer Section Preview Desktop]
+![Footer Section Preview Desktop](./Screenshot/Footer-Section.png)
 
 **Tablet View**
-![Footer Section Preview Tablet]
+![Footer Section Preview Tablet](./Screenshot/Tablet-View-Footer.png)
 
 **Mobile View**
-![Footer Section Preview Mobile]
+![Footer Section Preview Mobile](./Screenshot/Mobile-View-Footer.png)
 
 
 # Edit the Code
