@@ -15,7 +15,7 @@ Hello Guys I'm Hilman thanks for coming to my github. I'm Student in Revou Batch
 
 # Documention
 
-For this website I use 3 Media Query Dekstop, Tablet and Mobile (Desktop Recommend). This Website is about Construction Based in Bandung you can see the details here -> [PT. Reka Prima Consultants](week5-milestone1.netlify.app) <-
+For this website I use 3 Media Query Dekstop, Tablet and Mobile (Desktop Recommend). This Website is about Construction Based in Bandung you can see the details here -> [PT. Reka Prima Consultants](www.rekaprima.site) <-
 
 # Section
 
