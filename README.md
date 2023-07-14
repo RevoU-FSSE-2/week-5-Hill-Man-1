@@ -35,13 +35,13 @@ This is Home section no much feature in this section as you can see just title a
 ![Code HTML]
 
 **Desktop View**
-![Home Section Preview Desktop]
+![Home Section Preview Desktop](./Screenshot/Home-Section.png)
 
 **Tablet View**
-![Home Section Preview Tablet]
+![Home Section Preview Tablet](./Screenshot/Tablet-View-Home.png)
 
 **Mobile View**
-![Home Section Preview Mobile]
+![Home Section Preview Mobile](./Screenshot/Mobile-View-Home.png)
 
 ## About Section
 
@@ -51,13 +51,13 @@ In this Section About Section i use grid picture and some paragraph about the co
 ![Code HTML]
 
 **Desktop View**
-![About Section Preview Desktop]
+![About Section Preview Desktop](./Screenshot/About-section.png)
 
 **Tablet View**
-![About Section Preview Tablet]
+![About Section Preview Tablet](./Screenshot/Tablet-View-About.png)
 
 **Mobile View**
-![About Section Preview Mobile]
+![About Section Preview Mobile](./Screenshot/Mobile-View-Aboutpng.png)
 
 ## Services Section
 
@@ -67,13 +67,15 @@ This Section I use grid again I have 3 Photos and Paraghraph as an explain about
 ![Code HTML]
 
 **Desktop View**
-![Services Section Preview Desktop]
+![Services Section Preview Desktop](./Screenshot/Service-Section.png)
 
 **Tablet View**
-![Services Section Preview Tablet]
+![Services Section Preview Tablet](./Screenshot/Tablet-View-Service.png)
+![Services Section Preview Tablet-2](./Screenshot/Tablet-View-Service2.png.png)
 
 **Mobile View**
-![Services Section Preview Mobile]
+![Services Section Preview Mobile](./Screenshot/Mobile-View-Service.png)
+![Services Section Preview Mobile](./Screenshot/Mobile-View-Service2.png)
 
 ## Gallery Section
 
@@ -83,13 +85,13 @@ This is Gallery Section. i use grid (again) as you can see i have 4 columns and 
 ![Code HTML]
 
 **Desktop View**
-![Gallery Section Preview Desktop]
+![Gallery Section Preview Desktop](./Screenshot/Gallery-Section.png)
 
 **Tablet View**
-![Gallery Section Preview Tablet]
+![Gallery Section Preview Tablet](./Screenshot/Tablet-View-Gallery.png)
 
 **Mobile View**
-![Gallery Section Preview Mobile]
+![Gallery Section Preview Mobile](./Screenshot/gallery)
 
 ## Client Section
 
@@ -198,12 +200,12 @@ after you put your domain name on cloudflare you will get server name you just h
 
 ### Setting DNS External From Cloudflare
 
-next step is back to cloudflare to setting the DNS you just have go to DNS menu and you will see this. You just have to add record on DNS Management Menu. Choose **Type CNAME** and put your netlify domain name on the **Name Input** (after you deploy the website for the first time you will get the random name from netlify and you just have to put the random name from netlify to DNS Setting) and put you costume domain name on **IPv4 Address** add record choose the type CNAME again and put the **www** to name input and put your costume domain to IPv4 Address. and here's the example.
+next step is back to cloudflare to setting the DNS you just have go to DNS menu and you will see this. You just have to add record on DNS Management Menu. Choose **Type CNAME** and put your netlify domain name on the **Name Input** (after you deploy the website for the first time you will get the random name from netlify and you just have to put the random name from netlify to DNS Setting) and put you custom domain name on **IPv4 Address** add record choose the type CNAME again and put the **www** to name input and put your custom domain to IPv4 Address. and here's the example.
 
 
 ### Back to Netlify
 
-After the all the process success you will see the link active on cloudflare you just have to set the costume domain to netlify and just wait till the process finish and costume domain name will be ready to use. here's the example
+After the all the process success you will see the link active on cloudflare you just have to set the custom domain to netlify and just wait till the process finish and custom domain name will be ready to use. here's the example
 
 
 
